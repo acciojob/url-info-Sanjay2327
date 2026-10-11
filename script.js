@@ -1,4 +1,6 @@
 //your JS code here. If required.
-let url = document.url
+let url = window.location.href ;
 
-let count = "The length of the URL is:" + url.length ;
+function count() {
+	alert(url.length);
+};
