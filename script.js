@@ -1,6 +1,7 @@
 //your JS code here. If required.
 let url = window.location.href ;
+let n = url.length;
 
 function count() {
-	alert(url.length);
+	alert("The length of the URL is: "`${n}`);
 };
